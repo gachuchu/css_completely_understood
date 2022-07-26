@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>CSS完全に理解した</title>
+  <style>
+   html {
+   height:100vh;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   font-size:4vw;
+   }
+   body {
+   width:32vw;
+   height:25vh;
+   min-height:12vw;
+   max-height:15vw;
+   border:0.3vmax solid #000;
+   border-radius:2.25vmax;
+   }
+   body::before {
+   content:"CSS";
+   display:block;
+   position:relative;
+   left:10.25vw;
+   }
+   body::after {
+   content:"完全に理解した";
+   display:block;
+   position:relative;
+   left:10.25vw;
+   }
+  </style>
+ </head>
+ <body>
+ </body>
+</html>
